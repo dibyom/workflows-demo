@@ -9,4 +9,4 @@ spec:
       steps:
       - image: alpine/git
         script: |
-          git clone https://github.com/tektoncd/results
+          echo "demo"
