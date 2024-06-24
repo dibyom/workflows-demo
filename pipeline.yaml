@@ -9,4 +9,5 @@ spec:
       steps:
       - image: alpine/git
         script: |
-          echo "demo"
+          git clone https://github.com/dibyom/tkndemo
+          ls 
